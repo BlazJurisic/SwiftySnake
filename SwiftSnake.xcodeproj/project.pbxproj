@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4B2442891DEDBDFC00DC35DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2442881DEDBDFC00DC35DB /* AppDelegate.swift */; };
 		4B24428B1DEDBDFC00DC35DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24428A1DEDBDFC00DC35DB /* ViewController.swift */; };
-		4B24428E1DEDBDFC00DC35DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B24428C1DEDBDFC00DC35DB /* Main.storyboard */; };
 		4B2442901DEDBDFC00DC35DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B24428F1DEDBDFC00DC35DB /* Assets.xcassets */; };
 		4B2442931DEDBDFC00DC35DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2442911DEDBDFC00DC35DB /* LaunchScreen.storyboard */; };
 		4B24429E1DEDBDFC00DC35DB /* SwiftSnakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24429D1DEDBDFC00DC35DB /* SwiftSnakeTests.swift */; };
 		4B2442A91DEDBDFC00DC35DB /* SwiftSnakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2442A81DEDBDFC00DC35DB /* SwiftSnakeUITests.swift */; };
+		4B2442B71DEDC02B00DC35DB /* SnakeCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2442B61DEDC02B00DC35DB /* SnakeCube.swift */; };
+		4B2442BB1DEDE4A800DC35DB /* SnakeInstinct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2442BA1DEDE4A800DC35DB /* SnakeInstinct.swift */; };
+		4B6F25341DEEF1A200FF5D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F25331DEEF1A200FF5D7D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 		4B2442851DEDBDFC00DC35DB /* SwiftSnake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSnake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2442881DEDBDFC00DC35DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B24428A1DEDBDFC00DC35DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B24428D1DEDBDFC00DC35DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B24428F1DEDBDFC00DC35DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B2442921DEDBDFC00DC35DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B2442941DEDBDFC00DC35DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		4B2442A41DEDBDFC00DC35DB /* SwiftSnakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSnakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2442A81DEDBDFC00DC35DB /* SwiftSnakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSnakeUITests.swift; sourceTree = "<group>"; };
 		4B2442AA1DEDBDFC00DC35DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2442B61DEDC02B00DC35DB /* SnakeCube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeCube.swift; sourceTree = "<group>"; };
+		4B2442BA1DEDE4A800DC35DB /* SnakeInstinct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeInstinct.swift; sourceTree = "<group>"; };
+		4B6F25331DEEF1A200FF5D7D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 			children = (
 				4B2442881DEDBDFC00DC35DB /* AppDelegate.swift */,
 				4B24428A1DEDBDFC00DC35DB /* ViewController.swift */,
-				4B24428C1DEDBDFC00DC35DB /* Main.storyboard */,
+				4B2442BA1DEDE4A800DC35DB /* SnakeInstinct.swift */,
+				4B2442B61DEDC02B00DC35DB /* SnakeCube.swift */,
 				4B24428F1DEDBDFC00DC35DB /* Assets.xcassets */,
+				4B6F25331DEEF1A200FF5D7D /* Main.storyboard */,
 				4B2442911DEDBDFC00DC35DB /* LaunchScreen.storyboard */,
 				4B2442941DEDBDFC00DC35DB /* Info.plist */,
 			);
@@ -235,9 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6F25341DEEF1A200FF5D7D /* Main.storyboard in Resources */,
 				4B2442931DEDBDFC00DC35DB /* LaunchScreen.storyboard in Resources */,
 				4B2442901DEDBDFC00DC35DB /* Assets.xcassets in Resources */,
-				4B24428E1DEDBDFC00DC35DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2442BB1DEDE4A800DC35DB /* SnakeInstinct.swift in Sources */,
 				4B24428B1DEDBDFC00DC35DB /* ViewController.swift in Sources */,
+				4B2442B71DEDC02B00DC35DB /* SnakeCube.swift in Sources */,
 				4B2442891DEDBDFC00DC35DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +307,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4B24428C1DEDBDFC00DC35DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B24428D1DEDBDFC00DC35DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B2442911DEDBDFC00DC35DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -512,6 +512,7 @@
 				4B2442AF1DEDBDFC00DC35DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B2442B01DEDBDFC00DC35DB /* Build configuration list for PBXNativeTarget "SwiftSnakeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +521,7 @@
 				4B2442B21DEDBDFC00DC35DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B2442B31DEDBDFC00DC35DB /* Build configuration list for PBXNativeTarget "SwiftSnakeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +530,7 @@
 				4B2442B51DEDBDFC00DC35DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
